@@ -59,3 +59,40 @@
 ---
 
 ## 📁 **هيكل المشروع | Project Structure**
+
+├── index.html
+├── css/
+│ ├── normalize.css
+│ ├── baraa.css # ملف CSS الرئيسي
+│ └── all.min.css # Font Awesome
+├── js/
+│ └── main.js # ملف JavaScript الرئيسي
+├── imgs/ # جميع الصور
+│ ├── landing-image.png
+│ ├── features-01.jpg
+│ └── ...
+├── cv/ # السيرة الذاتية
+│ └── Baraa_CV.pdf
+├── webfonts/ # خطوط Font Awesome
+└── README.md
+
+
+
+---
+
+## 🚀 **التثبيت والإعداد | Installation & Setup**
+
+### الخيار 1: التطوير المحلي
+```bash
+# استنساخ المستودع
+git clone https://github.com/Baraaelh/eng-baraa-portfolio.git
+
+# الانتقال إلى مجلد المشروع
+cd eng-baraa-portfolio
+
+# فتح في المتصفح
+start index.html  # على Windows
+# أو
+open index.html  # على Mac
+# أو
+xdg-open index.html  # على Linux
